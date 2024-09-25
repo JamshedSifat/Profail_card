@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profail-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 370px;
+    width:100%;
+    padding: 25px;
+    background-color:#f4f4f4;
+    box-shadow: 0 5px 10px rgba(0 0 0 1);
+    border-radius: 24px;
+}
+img {
+    position: relative;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 60%;
+    padding: 4px;
+    border: 3px solid rgb(40, 22, 22);
+    margin-bottom: 14px;
+  }
+  .profail-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#333;
+  }
+  .text-data .name{
+    font-size: 22px;
+    font-weight: 500px;
+  }
+  .text-data .job{
+    font-size: 15px;
+    font-weight: 400px;
+  }
+  .profail-card .media-buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .profail-card .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin: 0 4px;
+    text-decoration: none;
+  }
+  .profail-card .media-buttons.link{
+    color: #08e8bb;
+  }
+  .profail-card .buttons{
+    display:flex;
+    align-items: center;
+    margin-top: 25px;
+  }
+  .buttons .button{
+    color:#fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .profail-card .buttons .button :hover{
+background: #e8840a;
+transition: 0.2s;
+  }
+
+  
+
+  
+
